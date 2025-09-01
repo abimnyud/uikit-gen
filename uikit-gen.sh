@@ -45,7 +45,7 @@ mkdir -p "$FULL_MODULE_PATH"
 # --- File paths ---
 PROTOCOL_FILE="$FULL_MODULE_PATH/${MODULE_NAME}ViewModelProtocol.swift"
 VIEWMODEL_FILE="$FULL_MODULE_PATH/${MODULE_NAME}ViewModel.swift"
-CONTROLLER_FILE="$FULL_MODULE_PATH/${MODULE_NAME}Controller.swift"
+CONTROLLER_FILE="$FULL_MODULE_PATH/${MODULE_NAME}ViewController.swift"
 VIEW_FILE="$FULL_MODULE_PATH/${MODULE_NAME}View.swift"
 
 # --- Create and populate the ViewModelProtocol file ---
@@ -104,7 +104,7 @@ EOF
 # --- Create and populate Controller file ---
 cat <<EOF >"$CONTROLLER_FILE"
 //
-//  ${MODULE_NAME}Controller.swift
+//  ${MODULE_NAME}ViewController.swift
 //  ${PROJECT_NAME}
 //  
 //  Created by $(whoami) on $(date +"%d/%m/%Y").
