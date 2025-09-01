@@ -116,7 +116,7 @@ extension <ModuleName>ViewModel: <ModuleName>ViewModelProtocol {
 
 ```swift
 //
-//  <ModuleName>Controller.swift
+//  <ModuleName>ViewController.swift
 //  <ProjectName>
 //
 //  Created by <Username> on <Date>.
